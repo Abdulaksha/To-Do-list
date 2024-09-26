@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #28313B, #485461); /* Gradient background */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  /* Centered container */
+  .container {
+    text-align: center;
+    width: 400px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #FFB6C1; /* Soft pink for the title */
+  }
+  
+  /* Input and submit button styling */
+  input[type="text"] {
+    padding: 0.7rem 1rem;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    width: 250px;
+    margin-right: 10px;
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 0.7rem 1.5rem;
+    background-color: #FFB6C1; /* Soft pink background */
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #000; /* Darker text */
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #FFC0CB; /* Slightly lighter pink */
+  }
+  
+  /* Styling the list items */
+  ul {
+    list-style-type: none;
+    margin-top: 2rem;
+  }
+  
+  ul {
+    font-size: 1.2rem;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #38444d; /* Darker background for list items */
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+  }
+  
+.a{
+    margin-left: 60%;
+}
+
+    
+     
+   span {
+    
+   
+    font-weight: bold;
+    color: #FFB6C1;
+      background-color: transparent;
+    color: #FFB6C1; /* Soft pink for icons */
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: color 0.3s ease; /* Soft pink text */
+  }
+  
+  
+  
+  ul span:hover {
+    color: #FFC0CB;
+  }
+  
+  /* Optional: Light/Dark mode toggle */
+  .toggle-theme {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  

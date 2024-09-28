@@ -1,8 +1,25 @@
-# React + Vite
+# Grocery List Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+A simple and user-friendly grocery list application built with [Bootsrap, e.g., React, or plain HTML/CSS/JavaScript]. This app helps users manage their grocery shopping efficiently.
 
-Currently, two official plugins are available:
+## Features
+- Add and remove items from your grocery list
+- Mark items as purchased
+- Responsive design for mobile and desktop
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+- [Framework/Libraries, e.g., React, Bootstrap]
+
+## Getting Started
+
+### Prerequisites
+- A web browser (Chrome, Firefox, etc.)
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/grocery-list.git
